@@ -12,3 +12,16 @@ body {
   margin-top: 10px;
   text-align: center;
 }
+
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 10px;
+  .card + .card {
+    margin-top: 10px;
+  }
+}

@@ -13,4 +13,17 @@ body {
   text-align: center;
 }
 
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 10px;
+}
+.card .card + .card {
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
