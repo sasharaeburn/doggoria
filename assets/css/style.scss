@@ -4,12 +4,15 @@ body {
 
 .main-title {
   margin-top: 10px;
-  margin-bottom: 10px;
   text-align: center;
 }
 
-.submit-message {
-  margin-top: 10px;
+.page-text {
+  text-align: center;
+}
+
+.img-container {
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -22,13 +25,24 @@ body {
 
 .card {
   margin-top: 10px;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+
+    .card-title {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .btn {
+      display: flex;
+      align-self: flex-start;
+    }
+  }
 }
 
-.img-container {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.page-text {
+.submit-message {
+  margin-top: 10px;
   text-align: center;
 }
