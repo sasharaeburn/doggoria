@@ -25,10 +25,15 @@ img {
   }
 }
 
- .article-header {
+.article {
+  .article-header {
     margin-bottom: 10px;
-  }
 
+    .image-credit {
+      text-align: right;
+    }
+  }
+}
 
 .questions {
   display: flex;

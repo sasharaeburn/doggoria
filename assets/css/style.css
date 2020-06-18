@@ -22,8 +22,11 @@ img {
   margin-top: 10px;
 }
 
-.article-header {
+.article .article-header {
   margin-bottom: 10px;
+}
+.article .article-header .image-credit {
+  text-align: right;
 }
 
 .questions {
