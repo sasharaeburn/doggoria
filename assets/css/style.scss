@@ -1,29 +1,34 @@
 body {
   font-family: 'Nunito', sans-serif;
-}
 
-.main-title {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.page-text {
-  text-align: center;
-}
-
-.container {
-  text-align: center;
-}
-
-.img-container {
-  margin-top: 20px;
-  text-align: center;
+  & > main {
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+  }
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
+
+.page-title {
+  margin-bottom: 15px;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  .page-description {
+    margin-top: 10px;
+  }
+}
+
+ .article-header {
+    margin-bottom: 10px;
+  }
+
 
 .questions {
   display: flex;
@@ -33,8 +38,16 @@ img {
 }
 
 .card {
-  width: 32%;
+  width: 100%;
   margin-top: 10px;
+
+  @media (min-width: 576px) and (max-width: 991px) {
+    width: 49%;
+  }
+
+  @media (min-width: 992px) {
+    width: 32%;
+  }
 
   .card-body {
     display: flex;
