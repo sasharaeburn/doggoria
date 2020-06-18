@@ -1,12 +1,21 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 body > main {
   padding-top: 3vh;
   padding-bottom: 8vh;
+  flex: 1 0 auto;
 }
 body > footer {
   padding-bottom: 8vh;
+  flex: 0 0 auto;
 }
 body > footer .copyright {
   text-align: center;
@@ -26,6 +35,12 @@ img {
 }
 .page-title .page-description {
   margin-top: 10px;
+}
+
+@media (max-width: 575px) {
+  .carousel .carousel-caption {
+    font-size: 0.8em;
+  }
 }
 
 .article .article-header {
