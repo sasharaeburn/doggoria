@@ -3,7 +3,14 @@ body {
 
   & > main {
     padding-top: 3vh;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
+  }
+
+  & > footer {
+    padding-bottom: 8vh;
+    .copyright {
+      text-align: center;
+    }
   }
 }
 
@@ -32,6 +39,10 @@ img {
     .image-credit {
       text-align: right;
     }
+  }
+
+  .article-footer {
+    text-align: right;
   }
 }
 
@@ -74,3 +85,4 @@ img {
   margin-top: 10px;
   text-align: center;
 }
+
